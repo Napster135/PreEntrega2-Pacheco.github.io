@@ -1,0 +1,105 @@
+.estiloBarraPagina{
+background-color: #ffc700;
+color: #222222;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 20px;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+}
+
+.articleConten {
+    display: flex;
+    align-items: flex-end;
+    padding: 10%;
+    padding-bottom: 2%;
+    padding-top: 7%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+
+h2 {
+        display: block;
+        font-size: 2.0rem;
+        text-align: center;
+        font-weight: bold;
+    }
+h4 {
+        display: block;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: bold;
+    }
+h6 {
+        display: block;
+        font-size: 1rem;
+        text-align: center;
+    }
+.Contratar {
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 3.5px;
+        border: 7px solid #ffc500;
+        padding: 1px 10px;
+        border-radius: 25px;
+          }
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCard {
+        width: 330px;
+        height: 430px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+        transition: all 0.25s;
+        transition: all 0.25s;
+
+        }
+.containerCard1 {
+            width: 350px;
+            height: 430px;
+            border-radius: 8px;
+            box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            margin-top: 20px;
+            transition: all 0.25s;
+        }
+
+.cardIndex {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    border:white; 
+    text-align: justify;
+    
+}
+.img {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+}
